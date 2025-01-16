@@ -1,0 +1,14 @@
+test/
+examples/
+scripts/
+.github/
+coverage/
+forge-cache/
+node_modules/
+typechain-types/
+.env
+.gitignore
+.solhint.json
+foundry.toml
+hardhat.config.ts
+tsconfig.json
