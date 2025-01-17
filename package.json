@@ -13,6 +13,8 @@
       "clean": "rimraf artifacts cache types",
       "build": "hardhat compile && forge build",
       "test": "hardhat test && forge test",
+      "test:hardhat": "hardhat test",
+      "test:foundry": "forge test",
       "lint": "solhint 'src/**/*.sol'",
       "format": "prettier --write 'src/**/*.sol' 'test/**/*.sol'",
       "docs": "hardhat docgen"
