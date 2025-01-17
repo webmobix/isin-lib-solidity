@@ -3,6 +3,7 @@ import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-waffle";
 import "@typechain/hardhat";
 import "hardhat-gas-reporter";
+import { resolve } from "path";
 
 const config: HardhatUserConfig = {
   solidity: {
@@ -27,7 +28,7 @@ const config: HardhatUserConfig = {
     sources: "./src",
     tests: "./test/hardhat",
     artifacts: "./artifacts"
-  }
+  },
 };
 
 export default config;
