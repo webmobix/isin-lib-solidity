@@ -21,16 +21,16 @@ Financial instruments use 12-character alphanumeric ISINs for global identificat
 **Using a package manager (e.g., npm/yarn for Hardhat/Truffle projects):**
 
 ```bash
-npm install your-package-name # Or your actual package name
+npm install @webmobix/isin-lib-solidity # Or your actual package name
 # or
-yarn add your-package-name # Or your actual package name
+yarn add @webmobix/isin-lib-solidity # Or your actual package name
 ```
 
 Then import in your Solidity contract:
 
 ```solidity
 // Adjust path if your package structure is different
-import "your-package-name/contracts/ISINLib.sol";
+import "@webmobix/isin-lib-solidity/contracts/ISINLib.sol";
 ```
 
 ```solidity

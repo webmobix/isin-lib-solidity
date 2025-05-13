@@ -1,6 +1,6 @@
 {
   "name": "@webmobix/isin-lib-solidity",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ISIN to uint256 conversion library",
   "main": "index.js",
   "files": [
