@@ -4,6 +4,7 @@ out = 'out'
 libs = ['lib']
 test = 'test/foundry'
 cache_path = 'forge-cache'
+allow_internal_expect_revert = true
 
 [profile.ci]
 fuzz_runs = 1000
